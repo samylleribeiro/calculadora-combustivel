@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Avaliação de qual combustível usar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="btn-noturno" onclick="toggleDarkMode()">🌙</button> 
+
+    <h1>Qual combustível usar? ⛽🛢️🌿 </h1>
+
+        <label for="alcool">Álcool:</label>
+        <input type="number" id="alcool" placeholder="Qual o valor do álcool?">
+        <br><br>
+        <label for="gasolina">Gasolina:</label>
+        <input type="number" id="gasolina" placeholder="Qual o valor da gasolina?">
+        <br><br>
+ 
+        <button onclick="conferir()">Conferir ⛽🛢️ 🌿  </button>
+        <button onclick="limpar()">Limpar 🔄 </button>
+
+    <h2 id="resultado"></h2>
+   
+    <script src="script.js"></script>
+</body>
+</html>
